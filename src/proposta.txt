@@ -25,6 +25,9 @@ Tarefas a serem realizadas:
 		- Buscar artigos e surveys sobre novas técnicas estudadas nos últimos 10 anos
 	Estudo do código do Adriano:
 		- Compilar, usar e fazer pequenas alterações no código do ASyMuT para entender o seu funcionamento
+	Estudo contínuo:
+		- Continuar lendo sobre as técnicas de transcrição, escrever sobre elas na monografia e preparar para
+		implementá-las na fase de implementação.
 	Implementação de uma interface gráfica mínima:
 		- Implementar uma interface que mostre um gráfico simples de frequência fundamental estimada x tempo.
 	Testes sistemáticos:
