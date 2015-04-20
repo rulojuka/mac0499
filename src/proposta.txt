@@ -1,0 +1,48 @@
+Introdução:
+
+Motivação:
+
+Objetivo:
+
+Tarefas já realizadas:
+
+	Janeiro e Fevereiro
+		Busca de uma área de interesse e um orientador para o trabalho.
+
+	Fevereiro e Março:
+		Escolha do orientador: Marcelo Queiroz
+		Enumeração de vários temas possíveis
+		Estudo mais específico e conversa com o orientador
+		Escolha do tema
+
+	Abril:
+		Leitura do TCC do Adriano Mitre e livros de referência mais genéricos
+
+Tarefas a serem realizadas:
+
+	Estudo preliminar:
+		- Estudar artigos referenciados no TCC do Adriano Mitre e indicados pelo orientador
+		- Buscar artigos e surveys sobre novas técnicas estudadas nos últimos 10 anos
+	Estudo do código do Adriano:
+		- Compilar, usar e fazer pequenas alterações no código do ASyMuT para entender o seu funcionamento
+	Implementação de uma interface gráfica mínima:
+		- Implementar uma interface que mostre um gráfico simples de frequência fundamental estimada x tempo.
+	Testes sistemáticos:
+		- Criar uma bateria de testes automatizados para complementar o TCC do Adriano e ser usada posteriormente
+		para testar o trabalho atual.
+		- Mostrar comparações de transcrições esperadas/obtidas
+	Implementação da transcrição em tempo real e de técnicas novas:
+		- Complementar o ASyMuT com a transcrição em tempo real, ou seja, certificar que o seu processamento é
+		feito mais rápido do que a execução do arquivo.
+		- Modificar alguns módulos do programa, implementando técnicas mais recentes de transcrição melódica.
+		- Implementação da entrada em tempo real pelo microfone
+	Implementação da interface gráfica completa e "gamificação":
+		- Implementação de uma visualização em tempo real de F0 (utilizando gnuplot)
+		- Implementação de uma visualização discreta de F0, como um piano-roll (utilizando gnuplot)
+		- Implementação de uma visualização em notação musical padrão (utilizando LilyPond)
+		- Implementação de uma visualização textual de F0, com o nome da nota e uma desafinação em cents.
+		- Implementação de um jogo simples para apresentação da ferramenta, utilizando um microfone para acertar
+		notas e/ou intervalos melódicos e ganhar pontos.
+	Elaboração da Monografia, Pôster e Apresentação
+
+Cronograma:
