@@ -14,7 +14,7 @@ Motivação:
     gratuito com uma qualidade de transcrição monofônica comparável aos softwares comerciais existentes.
 
 Objetivo:
-    O objetivo final do trabalho será a transcrição em tempo real de uma melodia monofônica, com
+    O objetivo final do trabalho será a transcrição em tempo real de melodias monofônicas, com
     alto nível de robustez e eficiência, utilizando de técnicas já implementadas no TCC de referência
     e também novas técnicas encontradas em estudos realizados nos últimos 10 anos. Além disso, uma
     interface de usuário será implementada, fornecendo não só um retorno gráfico da transcrição

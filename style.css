@@ -1,4 +1,3 @@
-
 body {
   margin: auto;
   margin-top: 40px;
@@ -29,8 +28,8 @@ p {
 }
 table {
   width: 100%;
-  margin-left: 32px;
-  margin-right: 32px;
+  /*margin-left: 32px;
+  margin-right: 32px;*/
   padding: 4px 8px;
   font-family: "Georgia";
   font-size: 14px;
@@ -72,7 +71,10 @@ a:hover, a:active {
   color: #AB3312;
 }
 ul {
-  list-style-type: none;
+  list-style-type: disc;
+}
+ul > ul{
+  list-style-type: circle;
 }
 .mono {
   font-family: monospace;
