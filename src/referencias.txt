@@ -1,0 +1,3 @@
+Sistema automático de transcrição melódica - Adriano Brito Mitre
+Christensen & Jakobsson : Multi-pitch estimation
+Computer Music Tutorial - Curtis Roads
