@@ -4,7 +4,7 @@
 # Sáb Jun 23 21:13:37 BRT 2007
 #
 
-BASE_NAME = monografia_template
+BASE_NAME = monografia_parcial
 
 LATEX     = latex
 PDFLATEX  = pdflatex
