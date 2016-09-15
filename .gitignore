@@ -1,0 +1,11 @@
+monografia/*.aux
+monografia/*.bbl
+monografia/*.blg
+monografia/*.brf
+monografia/*.idx
+monografia/*.ilg
+monografia/*.ind
+monografia/*.log
+monografia/*.out
+monografia/*.pdf
+monografia/*.toc
