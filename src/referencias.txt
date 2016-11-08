@@ -1,3 +1,5 @@
 Sistema automático de transcrição melódica - Adriano Brito Mitre
 Christensen & Jakobsson : Multi-pitch estimation
 Computer Music Tutorial - Curtis Roads
+Cuadra, Master, Sapp - Efficient pitch Detection Techniques for Interactive Music
+Gerhard - Pitch Extraction and Fundamental frequency: History and current Techniques
