@@ -1,5 +1,11 @@
 Sistema automático de transcrição melódica - Adriano Brito Mitre
 Christensen & Jakobsson : Multi-pitch estimation
 Computer Music Tutorial - Curtis Roads
-Cuadra, Master, Sapp - Efficient pitch Detection Techniques for Interactive Music
-Gerhard - Pitch Extraction and Fundamental frequency: History and current Techniques
+(2001) Cuadra, Master, Sapp - Efficient pitch Detection Techniques for Interactive Music
+(2003) Gerhard - Pitch Extraction and Fundamental frequency: History and current Techniques
+(2004) Klapuri - Signal Processing Methods for the Automatic Transcription of Music
+
+Klapuri 2004 - 3.3.1 - Time-domain autocorrelation function (ACF) based algorithms are among the most frequently
+used F0 estimators (see e.g. [Bro91, Tal95]). As pointed out by Tolonen and Karjalainen in
+[Tol00], ACF-based F0 estimators have close model-level similarities with cepstrum-based F0
+estimators [Nol67], and there is a continuum between them
