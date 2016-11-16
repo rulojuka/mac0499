@@ -95,7 +95,7 @@
 \begin{block}{Introdução}
 
 \begin{itemize}
-\item O avanço da tecnologia de Computação Musical vem trazendo novas áreas de interesse tanto acadêmicas quanto comerciais em sistemas de transcrição musical com novas técnicas de transcrição monofônicas e polifônicas, sistemas de geração automática de partituras, resíntese, busca de informação musical e outras. Exemplos comerciais incluem jogos como Guitar Hero e Rock Band, serviços como Shazam e ScoreCloud, e aplicativos como PitchScope e intelliScore Ensemble.
+\item O avanço da tecnologia de Computação Musical vem trazendo novas áreas de interesse tanto acadêmicas quanto comerciais em sistemas de transcrição musical com novas técnicas de transcrição monofônicas e polifônicas, sistemas de geração automática de partituras, ressíntese, busca de informação musical e outras. Exemplos comerciais incluem jogos como Guitar Hero e Rock Band, serviços como Shazam e ScoreCloud, e aplicativos como PitchScope e intelliScore Ensemble.
 
 \item Apesar do grande interesse acadêmico e comercial, a quantidade de software livre nessa àrea é insignificante e esse trabalho pretende prover uma implementação livre, de uso irrestrito e gratuito com uma qualidade de transcrição monofônica comparável aos softwares comerciais existentes.
 
@@ -183,7 +183,7 @@ Nesse contexto, apresentamos os seguintes algoritmos a serem implementados no \e
 %----------------------------------------------------------------------------------------
 
 \begin{block}{Harmonic Product Spectrum}
-Esse algoritmo busca por uma frequência cujo produto dos primeiros $K$ harmônicos é máximo, calculando a seguinte função para cada frequência: $$Y(\omega) = \prod _{k=1}^{K} \abs{X(\omega k))}$$
+Esse algoritmo busca por uma frequência cujo produto da magnitude dos primeiros $K$ harmônicos é máximo, calculando a seguinte função para cada frequência: $$Y(\omega) = \prod _{k=1}^{K} \abs{X(\omega k))}$$
 E então buscando seu máximo: $\widehat{Y} = \max\limits_{\omega_i}\{Y(\omega_i)\}$
 %\newline
 
@@ -203,7 +203,7 @@ E então buscando seu máximo: $\widehat{Y} = \max\limits_{\omega_i}\{Y(\omega_i
 
 Um protótipo de interface gráfica foi implementado utilizando o arcabouço LÖVE e a linguagem Lua. A cada nota recebida do ASyMuT uma nova linha é desenhada na tela, mostrando a informação de altura de um modo visual para o músico no formato piano-roll.
 
-Neste formato, cada altura de linha representa uma altura de nota, ou seja, quanto mais para cima está o desenho da linha, mais aguda é a nota transcrita.
+Neste formato, cada linha horizontal no gráfico representa um semitom e, quanto mais para cima está o desenho da linha, mais aguda é a nota transcrita.
 \begin{figure}%[!htb]
     \centering
     \includegraphics[width=0.6\linewidth]{screen2.png}
