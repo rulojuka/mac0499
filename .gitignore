@@ -10,3 +10,14 @@ monografia/*.log
 monografia/*.out
 monografia/*.pdf
 monografia/*.toc
+poster/*.aux
+poster/*.bbl
+poster/*.blg
+poster/*.brf
+poster/*.idx
+poster/*.ilg
+poster/*.ind
+poster/*.log
+poster/*.out
+poster/*.pdf
+poster/*.toc
