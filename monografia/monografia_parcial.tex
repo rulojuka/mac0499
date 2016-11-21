@@ -1,5 +1,5 @@
 % Arquivo LaTeX de exemplo de monografia para a disciplina MAC0499
-% 
+%
 % Adaptado em julho/2015 a partir do
 %
 % ---------------------------------------------------------------------------- %
@@ -15,7 +15,7 @@
 
 
 % ---------------------------------------------------------------------------- %
-% Pacotes 
+% Pacotes
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
@@ -51,7 +51,7 @@
 
 % ---------------------------------------------------------------------------- %
 \graphicspath{{./figuras/}}             % caminho das figuras (recomendável)
-\frenchspacing                          % arruma o espaço: id est (i.e.) e exempli gratia (e.g.) 
+\frenchspacing                          % arruma o espaço: id est (i.e.) e exempli gratia (e.g.)
 \urlstyle{same}                         % URL com o mesmo estilo do texto e não mono-spaced
 \makeindex                              % para o índice remissivo
 \raggedbottom                           % para não permitir espaços extra no texto
@@ -92,7 +92,7 @@ framexrightmargin=10pt
 % Corpo do texto
 \begin{document}
 
-\frontmatter 
+\frontmatter
 % cabeçalho para as páginas das seções anteriores ao capítulo 1 (frontmatter)
 \fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
 \setcounter{tocdepth}{2}
@@ -114,12 +114,12 @@ framexrightmargin=10pt
 
     \vspace*{3cm}
     \Large{Alessandro Wagner Palmeira}
-    
+
 
     \vspace{3cm}
     \textbf{\Large{Sistema de Transcrição Melódica em Tempo Real}}
-    
-       
+
+
     \vskip 5cm
     \normalsize{São Paulo}
 
@@ -159,11 +159,11 @@ framexrightmargin=10pt
 
 
 
-\pagenumbering{roman}     % começamos a numerar 
+\pagenumbering{roman}     % começamos a numerar
 
 %% % ---------------------------------------------------------------------------- %
 %% % Agradecimentos:
-%% % Se o candidato não quer fazer agradecimentos, deve simplesmente eliminar esta página 
+%% % Se o candidato não quer fazer agradecimentos, deve simplesmente eliminar esta página
 %% \chapter*{Agradecimentos}
 %% Texto texto texto texto texto texto texto texto texto texto texto texto texto
 %% texto texto texto texto texto texto texto texto texto texto texto texto texto
@@ -171,37 +171,13 @@ framexrightmargin=10pt
 %% texto texto texto texto. Texto opcional.
 
 
+\input cap-resumo-abstract
 
-% ---------------------------------------------------------------------------- %
-% Resumo
-\chapter*{Resumo}
-
-Elemento obrigatório, constituído de uma sequência de frases concisas e
-objetivas, em forma de texto.  Deve apresentar os objetivos, métodos empregados,
-resultados e conclusões.  O resumo deve ser redigido em parágrafo único, conter
-no máximo 500 palavras e ser seguido dos termos representativos do conteúdo do
-trabalho (palavras-chave).
-\\
-
-\noindent \textbf{Palavras-chave:} palavra-chave1, palavra-chave2, palavra-chave3.
-
-% ---------------------------------------------------------------------------- %
-% Abstract
-\chapter*{Abstract}
-
-Elemento obrigatório, elaborado com as mesmas características do resumo em
-língua portuguesa.
-\\
-
-\noindent \textbf{Keywords:} keyword1, keyword2, keyword3.
 
 
 % ---------------------------------------------------------------------------- %
 % Sumário
 \tableofcontents    % imprime o sumário
-
-
-
 
 %% % ---------------------------------------------------------------------------- %
 %% \chapter{Lista de Abreviaturas}
@@ -222,8 +198,8 @@ língua portuguesa.
 
 %% % ---------------------------------------------------------------------------- %
 %% % Listas de figuras e tabelas criadas automaticamente
-%% \listoffigures            
-%% \listoftables            
+%% \listoffigures
+%% \listoftables
 
 
 
@@ -237,23 +213,22 @@ língua portuguesa.
 \singlespacing              % espaçamento simples
 %\onehalfspacing            % espaçamento um e meio
 
-
-\input cap-introducao        % associado ao arquivo: 'cap-introducao.tex'
-\input cap-fundamentos        % associado ao arquivo: 'cap-fundamentos.tex'
-\input cap-historico        % associado ao arquivo: 'cap-historico.tex'
-\input cap-asymut        % associado ao arquivo: 'cap-asymut.tex'
-\input cap-temporeal        % associado ao arquivo: 'cap-temporeal.tex'
-\input cap-gui        % associado ao arquivo: 'cap-gui.tex'
-\input cap-discussao        % associado ao arquivo: 'cap-discussao.tex'
-%\input cap-desenvolvimentos  % associado ao arquivo: 'cap-desenvolvimento.tex'
-\input cap-conclusoes        % associado ao arquivo: 'cap-conclusoes.tex'
+%Capitulos do trabalho
+\input cap-introducao
+\input cap-fundamentacao-teorica
+\input cap-desenvolvimento
+\input cap-conclusao
+\chapter*{Bibliografia}
+\begin{itemize}
+\item Colocar toda a bibliografia estudada
+\end{itemize}
 
 % cabeçalho para os apêndices
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\ \thechapter}} {\MakeUppercase{#1}} }
 \fancyhead[RE,LO]{}
-\appendix
+%\appendix
 
-\include{ape-exemplo}      % associado ao arquivo: 'ape-conjuntos.tex'
+%\include{ape-exemplo}      % associado ao arquivo: 'ape-conjuntos.tex'
 
 
 % ---------------------------------------------------------------------------- %
@@ -271,6 +246,6 @@ língua portuguesa.
 %% \index{DFT|see{transformada discreta de Fourier}}
 %% \index{Fourier!transformada|see{transformada de Fourier}}
 
-%% \printindex   % imprime o índice remissivo no documento 
+%% \printindex   % imprime o índice remissivo no documento
 
 \end{document}

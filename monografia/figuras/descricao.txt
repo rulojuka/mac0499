@@ -1,0 +1,7 @@
+Descrição das figuras:
+
+Discrete_cosine.svg: https://en.wikipedia.org/wiki/File:Discrete_cosine.svg
+	Discrete cosine waveform with frequency of 50Hz and a sampling rate of 1000HZ; satisfying Sampling theorem. \omega =2\pi f=100\pi and samples are taken every 0.001s.
+
+Signal_Sampling.png: https://en.wikipedia.org/wiki/File:Signal_Sampling.png
+	Sampling demonstration used in signal processing.
