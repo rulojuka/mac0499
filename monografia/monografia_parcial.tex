@@ -38,6 +38,10 @@
 \usepackage[all]{hypcap}                    % soluciona o problema com o hyperref e capitulos
 \usepackage[round,sort,nonamebreak]{natbib} % citação bibliográfica textual(plainnat-ime.bst)
 \usepackage{emptypage}  % para não colocar número de página em página vazia
+\usepackage{amsmath} % para utilizar alguns símbolos matemáticos como \abs
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert} % pois o \abs continuou não funcionando
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert} %definindo norma
+
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
 
 % ---------------------------------------------------------------------------- %
