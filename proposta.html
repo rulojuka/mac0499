@@ -1,97 +1,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>MAC0499 - Alessandro Wagner Palmeira</title>
+<title>MAC0499 - Alessandro Palmeira e Caio Bedulli</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 	<h3>Introdução:</h3>
 	<p>
-		Essa é a proposta do meu Trabalho de Conclusão de Curso. O tema será "Sistema de Transcrição
-    Melódica em Tempo Real" e terá como referência principal o TCC de Adriano Brito Mitre, com tema
-    "Sistema Automático de Transcrição Melódica" do ano de 2005.
+		Esse trabalho de conclusão de curso visa o estudo de mecanismos de criptografia de dispositivos de memória não-volátil utilizando ferramentas como LUKS e SEDutil em HDDs e SSDs (quando providos de suporte Opal 2.0 ou superior). Pretendemos estudar a fundo esses mecanismos, coletar dados e analisar suas performances, além de estudar e demonstrar na prática algumas das vulnerabilidades conhecidas.
 	</p>
 	<h3>Motivação:</h3>
 	<p>
-		O avanço da tecnologia de Computação Musical vem trazendo novas áreas de interesse tanto
-	    acadêmicas quanto comerciais em sistemas de transcrição musical com novas técnicas de transcrição
-	    monofônicas e polifônicas, sistemas de geração automática de partituras, resíntese, busca de
-	    informação musical e outras. Exemplos comerciais incluem jogos como Guitar Hero e Rock Band,
-	    serviços como Shazam e ScoreCloud, e aplicativos como PitchScope e intelliScore Ensemble.
-	    Apesar do grande interesse acadêmico e comercial, a quantidade de software livre nessa àrea é
-	    insignificante e esse trabalho pretende prover uma implementação livre, de uso irrestrito e
-	    gratuito com uma qualidade de transcrição monofônica comparável aos softwares comerciais existentes.
+		A criptografia vem se tornando cada vez mais popular e difundida na sociedade. Tanto em âmbitos acadêmicos quanto populares, ela aparece como objeto de estudo e de segurança da informação.
+		Casos recentes, como a publicação de dados da NSA por Edward Snowden tem mostrado a importância que essa área tem para a segurança de indivíduos e também de nações inteiras.
 	</p>
 	<h3>Objetivo:</h3>
 	<p>
-		O objetivo final do trabalho será a transcrição em tempo real de melodias monofônicas, com
-	    alto nível de robustez e eficiência, utilizando de técnicas já implementadas no TCC de referência
-	    e também novas técnicas encontradas em estudos realizados nos últimos 10 anos. Além disso, uma
-	    interface de usuário será implementada, fornecendo não só um retorno gráfico da transcrição
-	    realizada, mas também uma interação em formato de jogo, onde o programa irá sugerir notas a
-	    serem tocadas pelo usuário (tanto vocalmente, quanto em um instrumento) e atribuir uma pontuação
-	    à sua performance.
-	</p>
-	<h3>Tarefas já realizadas:</h3>
-	<p>
-		<ul>
-        	<li>Busca de uma área de interesse e um orientador para o trabalho.</li>
-        	<li>Escolha do orientador: Marcelo Queiroz</li>
-        	<li>Enumeração de vários temas possíveis</li>
-        	<li>Estudo mais específico e conversa com o orientador</li>
-        	<li>Escolha do tema</li>
-        	<li>Leitura do TCC de referência e livros de referência mais genéricos</li>
-        </ul>
+		O objetivo final do trabalho será o entendimento teórico completo de como é feita a criptografia utilizando as ferramentas mencionadas.
+		Além disso, faremos análises de performance das ferramentas em diferentes dispositivos.
+		Por fim, pretendemos obter conhecimento técnico suficiente para conseguir contribuir para o projeto SEDutil e também demonstrar na prática algumas vulnerabilidades conhecidas como, por exemplo, "cold boot" e "evil maid".
 	</p>
 	<h3>Tarefas a serem realizadas:</h3>
 	<ul>
-		<li>Estudo preliminar</li>
-			<ul>
-	        	<li>Estudar artigos referenciados no TCC do Adriano Mitre e indicados pelo orientador</li>
-	        	<li>Buscar artigos e surveys sobre novas técnicas estudadas nos últimos 10 anos</li>
-	        </ul>
-	    <li>Estudo do código do TCC de referência</li>
-			<ul>
-	        	<li>Compilar, usar e fazer pequenas alterações no código do ASyMuT para entender o seu funcionamento</li>
-	        </ul>
-	    <li>Implementação de uma interface gráfica mínima</li>
-			<ul>
-	        	<li>Implementar uma interface que mostre um gráfico simples de frequência fundamental estimada x tempo.</li>
-	        </ul>
-	    <li>Estudo aprofundado</li>
-			<ul>
-	        	<li>Continuar lendo sobre as técnicas de transcrição, escrever sobre elas na monografia e preparar para implementá-las posteriormente.</li>
-	        </ul>
-	    <li>Implementação da transcrição em tempo real</li>
-			<ul>
-	        	<li>Complementar o ASyMuT com a transcrição em tempo real, ou seja, certificar que o seu processamento é feito mais rápido do que a execução do arquivo.</li>
-	        </ul>
-	    <li>Testes sistemáticos</li>
-			<ul>
-	        	<li>Criar uma bateria de testes automatizados para complementar o TCC de referência e ser usada posteriormente para testar o trabalho atual.</li>
-	        	<li>Mostrar comparações de transcrições esperadas/obtidas</li>
-	        </ul>
-	    <li>Implementação de técnicas novas</li>
-			<ul>
-	        	<li>Modificar alguns módulos do programa, implementando técnicas mais recentes de transcrição melódica</li>
-	        </ul>
-	    <li>Implementação da interface gráfica completa e da interação com o usuário</li>
-			<ul>
-	        	<li>Implementação de uma visualização em tempo real de F0 (utilizando gnuplot)</li>
-	        	<li>Implementação de uma visualização discreta de F0, como um piano-roll (utilizando gnuplot)</li>
-	        	<li>Implementação de uma visualização em notação musical padrão (utilizando LilyPond)</li>
-	        	<li>Implementação de uma visualização textual de F0, com o nome da nota e uma desafinação em cents.</li>
-	        	<li>Implementação da entrada em tempo real pelo microfone</li>
-	        	<li>Implementação de um jogo simples para apresentação da ferramenta, utilizando um microfone para acertar notas e/ou intervalos melódicos e ganhar pontos.</li>
-	        </ul>
+		<li>Estudo da especificação ATAPI</li>
+	    <li>Estudo da especificação Opal</li>
+	    <li>Aprendizado e habituação com as ferramentas (Device Mapper, DM_crypt, LUKS, SEDutil)</li>
+	    <li>Coleta de dados sobre performance e organização dos resultados</li>
+	    <li>Estudo e demonstração das vulnerabilidades conhecidas</li>
+	    <li>Contribuição para o projeto SED Util</li>
 	    <li>Elaboração da Monografia, Pôster e Apresentação</li>
 	</ul>
 	<p>
 	</p>
 	<h3>Cronograma:</h3>
 	<table>
-		<caption align="bottom">Cronograma gerado no site www.tomsplanner.com</caption>
-		<tr><td><img src="src/cronograma/cronograma_2016.png" width="100%" align="center"></td></tr>
+		<tr><td><img src="src/cronograma/cronograma_2017.png" width="100%" align="center"></td></tr>
 	</table>
 </body>

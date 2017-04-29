@@ -47,7 +47,7 @@ ul#menubar {
 }
 #menubar > li {
   float: left;
-  width: calc(100%  /6);
+  width: calc(100%  /3);
 }
 a.button:link, a.button:visited {
   display: block;
